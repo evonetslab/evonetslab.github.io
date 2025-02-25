@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkevonetslab_website=self.webpackChunkevonetslab_website||[]).push([[167],{3894:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/evonetslab.github.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

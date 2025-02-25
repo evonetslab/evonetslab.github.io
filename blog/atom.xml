@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://evonetslab.github.io/evonetslab.github.io/blog</id>
+    <title>The Evolving Networks Lab Blog</title>
+    <updated>2025-02-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://evonetslab.github.io/evonetslab.github.io/blog"/>
+    <subtitle>The Evolving Networks Lab Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://evonetslab.github.io/evonetslab.github.io/blog/welcome</id>
+        <link href="https://evonetslab.github.io/evonetslab.github.io/blog/welcome"/>
+        <updated>2025-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello and welcome to the Evolving Networks Lab news page! Here we will post about new lab members, new papers, participation in conferences, appearances in media and so on.]]></summary>
+        <content type="html"><![CDATA[<p>Hello and welcome to the Evolving Networks Lab news page! Here we will post about new lab members, new papers, participation in conferences, appearances in media and so on.</p>]]></content>
+        <author>
+            <name>Mariana P Braga</name>
+            <uri>https://github.com/maribraga</uri>
+        </author>
+    </entry>
+</feed>
