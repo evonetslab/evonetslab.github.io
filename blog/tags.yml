@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+paper:
+  label: Paper
+  permalink: /paper
+  description: News about new papers
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+media:
+  label: Media
+  permalink: /media
+  description: Evonetslab in the media
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+conference:
+  label: Conference
+  permalink: /conference
+  description: Evonetslab at conferences
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+spectro:
+  label: spectro
+  permalink: /spectro
+  description: Updates on the project SPECTRO
