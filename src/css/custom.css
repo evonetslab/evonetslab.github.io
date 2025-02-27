@@ -26,3 +26,14 @@
   --ifm-color-primary-lighter: #ffa678;
   --ifm-color-primary-lightest: #ffc6a9;
 }
+
+.my-new-section {
+  width: 100%;
+  height: auto;
+  background-color: var(--ifm-color-primary);
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 4rem;
+}
+

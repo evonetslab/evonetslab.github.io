@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'The Evolving Networks Lab',
-  tagline: 'SLU Uppsala',
+  tagline: 'SLU Uppsala, Sweden',
   //favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -81,8 +81,7 @@ const config = {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Polygonia.svg',
-          //src: 'img/vanessa_matrix.svg',
+          src: 'img/Polygonia.png',
         },
         items: [
           {
