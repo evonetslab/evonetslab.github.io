@@ -115,7 +115,6 @@ const config = {
             label: "GitHub",
           },
           {
-            className: "link",
             href: 'https://www.instagram.com/evonetslab',
             position: 'right',
             label: "Instagram"
