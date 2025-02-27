@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -71,6 +72,7 @@ const config = {
       }),
     ],
   ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -78,7 +80,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/Polygonia.png',
@@ -110,14 +112,14 @@ const config = {
           {
             href: 'https://github.com/evonetslab',
             position: 'right',
-            className: "header--github-link",
-            "aria-label": "GitHub repository",
+            className: "link",
+            label: "GitHub",
           },
           {
+            className: "link",
             href: 'https://www.instagram.com/evonetslab',
-            className: "navbar__instagram navbar__icon",
-            "aria-label": "Instagram",
             position: 'right',
+            label: "Instagram"
           },
         ],
       },
