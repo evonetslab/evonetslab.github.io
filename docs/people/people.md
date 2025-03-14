@@ -16,7 +16,8 @@ sidebar_position: 1
 
 Loves ecological networks and phylogenies. <br/>
 Associate Senior Lecturer, [Department of Ecology](https://www.slu.se/en/departments/ecology/), SLU Uppsala. <br/>
-[DDLS](https://www.scilifelab.se/data-driven/) Fellow, SciLifelab
+[DDLS](https://www.scilifelab.se/data-driven/) Fellow, SciLifelab <br/>
+📬 mariana.braga[at]slu.se
 
 <br/>
 <br/>
