@@ -17,3 +17,8 @@ spectro:
   label: spectro
   permalink: /spectro
   description: Updates on the project SPECTRO
+
+vacancies:
+  label: vacancies
+  permalink: /vacancies
+  description: New positions at Evonetslab
