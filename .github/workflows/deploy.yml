@@ -1,49 +1,58 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages automatically
 
 on:
-  pull_request:
-    branches: [main]
   push:
     branches: [main]
 
-permissions:
-  contents: write
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  test-deploy:
-    if: github.event_name != 'push'
+  # Build job
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: yarn
+          node-version: "18"
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Test build website
-        run: yarn build
+        run: "npm install"
+      - name: Build with Docusaurus
+        run: "npm run build"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'build'
+
+  # Deploy job
   deploy:
-    if: github.event_name != 'pull_request'
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: yarn
-      - uses: webfactory/ssh-agent@v0.5.0
-        with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Deploy to GitHub Pages
-        env:
-          USE_SSH: true
-        run: |
-          git config --global user.email "mpiresbr@gmail.com"
-          git config --global user.name "maribraga"
-          yarn install --frozen-lockfile
-          yarn deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
