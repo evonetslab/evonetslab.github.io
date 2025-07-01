@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Methods development',
-    Svg: require('@site/static/img/undraw_programmer_raqr.svg').default,
+    Svg: require('@site/static/img/code.svg').default,
     description: (
       <>
         We develop computational tools to answer biological questions.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'New data',
-    Svg: require('@site/static/img/undraw_nature_yf30.svg').default,
+    Svg: require('@site/static/img/field.svg').default,
     description: (
       <>
         We learn a lot about nature by doing field work and lab experiments.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Data compilation',
-    Svg: require('@site/static/img/undraw_engineering-team_13ax.svg').default,
+    Svg: require('@site/static/img/larva.svg').default,
     description: (
       <>
         We analyse our data together with all the data we can find in the literature for our groups of interest.

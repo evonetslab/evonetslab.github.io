@@ -5,7 +5,6 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import CoverImageUrl from '@site/static/img/thesis_cover.png';
 
 
 function HomepageHeader() {
@@ -37,11 +36,6 @@ function HomepageHeader() {
       description={siteConfig.tagline}>
       <HomepageHeader />
       <main>
-        <section className="my-new-section">
-          <div className="container">
-            <img src={CoverImageUrl} />;
-          </div>
-        </section>
         <HomepageFeatures />
       </main>
       </Layout>
