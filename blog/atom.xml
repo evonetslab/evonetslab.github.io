@@ -1,15 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://evonetslab.github.io/evonetslab.github.io/blog</id>
+    <id>https://evonetslab.github.io/blog</id>
     <title>The Evolving Networks Lab Blog</title>
-    <updated>2025-02-24T00:00:00.000Z</updated>
+    <updated>2025-03-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://evonetslab.github.io/evonetslab.github.io/blog"/>
+    <link rel="alternate" href="https://evonetslab.github.io/blog"/>
     <subtitle>The Evolving Networks Lab Blog</subtitle>
     <entry>
+        <title type="html"><![CDATA[PhD student position]]></title>
+        <id>https://evonetslab.github.io/blog/spectro_phd</id>
+        <link href="https://evonetslab.github.io/blog/spectro_phd"/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are looking for a PhD student interested in host specialization in tropical butterflies!]]></summary>
+        <content type="html"><![CDATA[<p>We are looking for a PhD student interested in host specialization in tropical butterflies!</p>
+<p>The aim of this PhD position is to develop a novel phylogenetic approach to predict unknown species interactions. For that, the student will compile all available data on host use for Nymphalinae butterflies, apply recent methods to predict interactions, and test these predictions by rearing caterpillars of various butterfly species on the predicted host plants. The project will result in a pipeline for faster collection of interaction data and the generation of valuable new data on tropical species.</p>
+<p>Application deadline April 30 2025.</p>
+<p>More info <a href="https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/?rmpage=job&amp;rmjob=12583&amp;rmlang=UK" target="_blank" rel="noopener noreferrer">here</a>.</p>]]></content>
+        <author>
+            <name>Mariana P Braga</name>
+            <uri>https://github.com/maribraga</uri>
+        </author>
+        <category label="vacancies" term="vacancies"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postdoc/researcher position]]></title>
+        <id>https://evonetslab.github.io/blog/treeppl_postdoc</id>
+        <link href="https://evonetslab.github.io/blog/treeppl_postdoc"/>
+        <updated>2025-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are looking for a postdoc/researcher with documented experience with phylogenetic comparative methods and R-package development.]]></summary>
+        <content type="html"><![CDATA[<p>We are looking for a postdoc/researcher with documented experience with phylogenetic comparative methods and R-package development.</p>
+<p>The successful candidate will be working within the development team of <a href="https://www.treeppl.org/" target="_blank" rel="noopener noreferrer">TreePPL</a>, a universal probabilistic programming language and new software for phylogenetics. The successful candidate will be responsible for the user-interface aspects of the project, through development of the R package <a href="https://www.github.com/treeppl/treepplr" target="_blank" rel="noopener noreferrer">treepplr</a>. The work will include development and implementation of methods to test model adequacy, inference diagnostics, model comparison, and visualization of outputs from various models, including host repertoire evolution, tree inference, and diversification.</p>
+<p>All interested candidates irrespective of age, nationality, gender, disability, religion or ethnic background are encouraged to apply. Since the applicant will be working closely with other group members, excellent communication, good will and reliability are required.</p>
+<p>Due to Swedish regulation for employment of postdocs, there are two application alternatives:</p>
+<ul>
+<li>
+<p>If you have a PhD degree for less than 3 years, excluding deductible time such as sick or parental leave (until May 11th), follow <a href="https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/?rmpage=job&amp;rmjob=12612&amp;rmlang=UK" target="_blank" rel="noopener noreferrer">this link</a></p>
+</li>
+<li>
+<p>If your PhD degree is older than 3 years, follow <a href="https://www.slu.se/en/about-slu/work-at-slu/jobs-vacancies/?rmpage=job&amp;rmjob=12616&amp;rmlang=UK" target="_blank" rel="noopener noreferrer">this link</a></p>
+</li>
+</ul>
+<p>You will find more information about the positions and how to apply in those links.</p>
+<p>Application deadline May 11 2025.</p>]]></content>
+        <author>
+            <name>Mariana P Braga</name>
+            <uri>https://github.com/maribraga</uri>
+        </author>
+        <category label="vacancies" term="vacancies"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DDLS Fellowship]]></title>
+        <id>https://evonetslab.github.io/blog/ddls</id>
+        <link href="https://evonetslab.github.io/blog/ddls"/>
+        <updated>2025-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Post on ScilifeLab website about my DDLS Fellowship here.]]></summary>
+        <content type="html"><![CDATA[<p>Post on ScilifeLab website about my DDLS Fellowship <a href="https://www.scilifelab.se/news/182290/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p><img decoding="async" loading="lazy" alt="ddls_new_fellow" src="https://evonetslab.github.io/assets/images/ddls_new_fellow-9679575649e22deca6ebff3d70520fdb.png" width="2186" height="567" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Mariana P Braga</name>
+            <uri>https://github.com/maribraga</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://evonetslab.github.io/evonetslab.github.io/blog/welcome</id>
-        <link href="https://evonetslab.github.io/evonetslab.github.io/blog/welcome"/>
+        <id>https://evonetslab.github.io/blog/welcome</id>
+        <link href="https://evonetslab.github.io/blog/welcome"/>
         <updated>2025-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello and welcome to the Evolving Networks Lab news page! Here we will post about new lab members, new papers, participation in conferences, appearances in media and so on.]]></summary>
         <content type="html"><![CDATA[<p>Hello and welcome to the Evolving Networks Lab news page! Here we will post about new lab members, new papers, participation in conferences, appearances in media and so on.</p>]]></content>

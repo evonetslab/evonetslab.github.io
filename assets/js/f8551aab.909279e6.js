@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkevonetslab_website=self.webpackChunkevonetslab_website||[]).push([[224],{4575:(e,s,a)=>{a.r(s),a.d(s,{default:()=>c});a(6540);var t=a(1410),n=a(4848);function c(){return(0,n.jsxs)(t.A,{children:[(0,n.jsx)("h1",{children:"My React page"}),(0,n.jsx)("p",{children:"This is a React page"})]})}}}]);

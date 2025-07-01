@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkevonetslab_website=self.webpackChunkevonetslab_website||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"vacancies","permalink":"/blog/tags/vacancies","description":"New positions at Evonetslab","count":2}]}')}}]);
