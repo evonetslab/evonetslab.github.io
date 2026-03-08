@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Methods development',
-    Svg: require('@site/static/img/code.svg').default,
+    imgSrc: '/img/code.png',
     description: (
       <>
         We develop computational tools to answer biological questions.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'New data',
-    Svg: require('@site/static/img/field.svg').default,
+    imgSrc: '/img/field.png',
     description: (
       <>
         We learn a lot about nature by doing field work and lab experiments.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Data compilation',
-    Svg: require('@site/static/img/larva.svg').default,
+    imgSrc: '/img/larva.png',
     description: (
       <>
         We analyse our data together with all the data we can find in the literature for our groups of interest.
@@ -32,11 +32,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({imgSrc, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imgSrc} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
