@@ -1,0 +1,63 @@
+.profileCol {
+  margin-bottom: 2rem;
+}
+
+.profileCard {
+  transition: transform 0.3s ease;
+  height: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.profileCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the photo a circle */
+  object-fit: cover;
+  border: 4px solid var(--ifm-color-primary);
+}
+
+.roleText {
+  font-weight: bold;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1rem;
+}
+
+.contactIcons a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.pastMembersContainer {
+  overflow-x: auto; /* Makes table scrollable on mobile */
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.pastMembersTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pastMembersTable th {
+  text-align: left;
+  border-bottom: 2px solid var(--ifm-color-emphasis-300);
+  padding: 0.5rem;
+}
+
+.pastMembersTable td {
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.contactIcons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
